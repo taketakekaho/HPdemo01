@@ -1,0 +1,220 @@
+/* line 5, ../service/consulting/css/uniq.scss */
+header#header {
+  background: url(../cmn/img/mv_city.jpg) center no-repeat;
+  background-size: cover; }
+  @media only screen and (max-width: 640px) {
+    /* line 5, ../service/consulting/css/uniq.scss */
+    header#header {
+      background: url(../cmn/img/mv_city.jpg) right no-repeat; } }
+
+/* line 12, ../service/consulting/css/uniq.scss */
+h2.ttl {
+  font-size: 40px; }
+  @media only screen and (max-width: 1000px) {
+    /* line 12, ../service/consulting/css/uniq.scss */
+    h2.ttl {
+      font-size: 30px; } }
+  @media only screen and (max-width: 640px) {
+    /* line 12, ../service/consulting/css/uniq.scss */
+    h2.ttl {
+      font-size: 20px; } }
+
+/* line 22, ../service/consulting/css/uniq.scss */
+#snsArea {
+  display: block;
+  margin-bottom: 25px;
+  width: 100%;
+  position: relative; }
+  /* line 27, ../service/consulting/css/uniq.scss */
+  #snsArea > #boxArea {
+    display: block;
+    position: absolute;
+    bottom: -25px;
+    right: 0; }
+  @media only screen and (max-width: 640px) {
+    /* line 22, ../service/consulting/css/uniq.scss */
+    #snsArea {
+      display: block;
+      margin-bottom: 20px;
+      width: 100%;
+      position: static;
+      text-align: center; }
+      /* line 41, ../service/consulting/css/uniq.scss */
+      #snsArea > img {
+        margin-bottom: 20px; }
+      /* line 44, ../service/consulting/css/uniq.scss */
+      #snsArea > #boxArea {
+        display: block;
+        width: 100%;
+        padding: 0 !important;
+        position: static;
+        bottom: -25px;
+        right: 0; } }
+
+/* line 55, ../service/consulting/css/uniq.scss */
+#concept {
+  display: block;
+  margin-bottom: 50px; }
+  /* line 58, ../service/consulting/css/uniq.scss */
+  #concept > .imgArea {
+    display: block;
+    width: 200px;
+    float: left; }
+  /* line 63, ../service/consulting/css/uniq.scss */
+  #concept > .txtArea {
+    display: block;
+    width: 665px;
+    padding-left: 20px;
+    float: left; }
+    /* line 69, ../service/consulting/css/uniq.scss */
+    #concept > .txtArea > p > b {
+      display: block;
+      margin-bottom: 5px;
+      font-size: 18px; }
+      /* line 73, ../service/consulting/css/uniq.scss */
+      #concept > .txtArea > p > b.blue {
+        color: #00f; }
+      /* line 76, ../service/consulting/css/uniq.scss */
+      #concept > .txtArea > p > b.red {
+        margin-top: 20px;
+        color: #f00; }
+  @media only screen and (max-width: 1000px) {
+    /* line 55, ../service/consulting/css/uniq.scss */
+    #concept {
+      margin-bottom: 30px; }
+      /* line 85, ../service/consulting/css/uniq.scss */
+      #concept > .imgArea {
+        width: 30%; }
+        /* line 87, ../service/consulting/css/uniq.scss */
+        #concept > .imgArea > img {
+          width: 100%;
+          height: auto; }
+      /* line 92, ../service/consulting/css/uniq.scss */
+      #concept > .txtArea {
+        width: 70%;
+        padding-left: 20px; }
+        /* line 95, ../service/consulting/css/uniq.scss */
+        #concept > .txtArea > p {
+          margin: 0; }
+          /* line 97, ../service/consulting/css/uniq.scss */
+          #concept > .txtArea > p > b {
+            margin-bottom: 5px;
+            font-size: 16px; }
+            /* line 100, ../service/consulting/css/uniq.scss */
+            #concept > .txtArea > p > b.red {
+              margin-top: 20px; } }
+  @media only screen and (max-width: 640px) {
+    /* line 55, ../service/consulting/css/uniq.scss */
+    #concept {
+      margin-bottom: 20px; }
+      /* line 109, ../service/consulting/css/uniq.scss */
+      #concept > .imgArea {
+        width: 100%;
+        height: 150px;
+        margin-bottom: 20px;
+        text-align: center; }
+        /* line 114, ../service/consulting/css/uniq.scss */
+        #concept > .imgArea > img {
+          width: auto;
+          height: 100%; }
+      /* line 119, ../service/consulting/css/uniq.scss */
+      #concept > .txtArea {
+        width: 100%;
+        padding-left: 0; }
+        /* line 123, ../service/consulting/css/uniq.scss */
+        #concept > .txtArea > p > b {
+          margin-bottom: 5px;
+          font-size: 14px; }
+          /* line 126, ../service/consulting/css/uniq.scss */
+          #concept > .txtArea > p > b.red {
+            margin-top: 20px; } }
+
+/* line 135, ../service/consulting/css/uniq.scss */
+ul.contena {
+  display: block; }
+  /* line 137, ../service/consulting/css/uniq.scss */
+  ul.contena > li {
+    display: block; }
+    /* line 139, ../service/consulting/css/uniq.scss */
+    ul.contena > li + li {
+      margin-top: 20px; }
+    /* line 143, ../service/consulting/css/uniq.scss */
+    ul.contena > li.imgTrue > .txtArea {
+      width: 60%;
+      padding-right: 20px;
+      float: left; }
+    /* line 148, ../service/consulting/css/uniq.scss */
+    ul.contena > li.imgTrue > .imgArea {
+      width: 40%;
+      float: left; }
+    /* line 153, ../service/consulting/css/uniq.scss */
+    ul.contena > li > .txtArea {
+      display: block;
+      float: left; }
+      /* line 156, ../service/consulting/css/uniq.scss */
+      ul.contena > li > .txtArea > h5 {
+        display: block;
+        margin-bottom: 10px;
+        padding-left: 21px;
+        background: url(../../../cmn/img/list_circle.png) left no-repeat;
+        color: #79c6e8; }
+    /* line 164, ../service/consulting/css/uniq.scss */
+    ul.contena > li > .imgArea {
+      display: block;
+      float: left; }
+  @media only screen and (max-width: 1000px) {
+    /* line 171, ../service/consulting/css/uniq.scss */
+    ul.contena > li + li {
+      margin-top: 20px; }
+    /* line 175, ../service/consulting/css/uniq.scss */
+    ul.contena > li.imgTrue > .txtArea {
+      width: 60%;
+      padding-right: 20px; }
+    /* line 179, ../service/consulting/css/uniq.scss */
+    ul.contena > li.imgTrue > .imgArea {
+      width: 40%;
+      float: left; }
+      /* line 182, ../service/consulting/css/uniq.scss */
+      ul.contena > li.imgTrue > .imgArea > img {
+        width: 100%;
+        height: auto; }
+    /* line 188, ../service/consulting/css/uniq.scss */
+    ul.contena > li > .txtArea {
+      display: block;
+      float: left; }
+      /* line 191, ../service/consulting/css/uniq.scss */
+      ul.contena > li > .txtArea > h5 {
+        display: block;
+        margin-bottom: 10px;
+        padding-left: 21px;
+        background: url(../../../cmn/img/list_circle.png) left no-repeat;
+        color: #79c6e8; }
+    /* line 199, ../service/consulting/css/uniq.scss */
+    ul.contena > li > .imgArea {
+      display: block;
+      float: left; } }
+  @media only screen and (max-width: 640px) {
+    /* line 208, ../service/consulting/css/uniq.scss */
+    ul.contena > li.imgTrue > .txtArea {
+      width: 100%;
+      padding-right: 0px;
+      float: none; }
+    /* line 213, ../service/consulting/css/uniq.scss */
+    ul.contena > li.imgTrue > .imgArea {
+      width: 100%;
+      float: none;
+      text-align: center; }
+      /* line 217, ../service/consulting/css/uniq.scss */
+      ul.contena > li.imgTrue > .imgArea > img {
+        width: 80%;
+        height: auto; }
+    /* line 223, ../service/consulting/css/uniq.scss */
+    ul.contena > li > .txtArea {
+      float: none; }
+      /* line 225, ../service/consulting/css/uniq.scss */
+      ul.contena > li > .txtArea > h5 {
+        margin-bottom: 5px;
+        padding-left: 21px;
+        font-size: 14px;
+        background: url(../../../cmn/img/list_circle.png) left no-repeat;
+        background-size: 15px 15px; } }
